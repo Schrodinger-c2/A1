@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog and portfolio website">
+    <title>Your Name - Portfolio & Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #20365d;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #304a76;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        section {
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            border-bottom: 2px solid #20365d;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            color: #304a76;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+        .social-media a:hover {
+            color: #20365d;
+        }
+        footer {
+            background-color: #20365d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Welcome to my Portfolio & Blog!</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce yourself here! Talk about your background, your passions, and what drives you. This is where you share your story with the world.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Project 1:</strong> Brief description of your first project. Include links and images if necessary.</li>
+            <li><strong>Project 2:</strong> Brief description of your second project. Mention the technologies used, and any challenges overcome.</li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact & Social Media</h2>
+        <p>If you'd like to get in touch, feel free to reach out through any of my social media channels below.</p>
+        <div class="social-media">
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Your Name | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
